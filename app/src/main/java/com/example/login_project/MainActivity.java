@@ -18,8 +18,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         sharedPreferences = getSharedPreferences("myapp",MODE_PRIVATE);
+
+        try {
+            MyMethods.MY_KEY = MyMethods.encryptdata("mafi223344");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
         String email = sharedPreferences.getString("email","");
         if (email.length()<=0){

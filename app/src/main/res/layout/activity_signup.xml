@@ -17,12 +17,14 @@
         >
 
         <ImageView
+            android:id="@+id/imageprofile"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/boy"
             android:scaleType="centerCrop"
             />
         <TextView
+            android:id="@+id/tvchangeimage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Change Photo"
@@ -40,6 +42,7 @@
         android:hint="Email"
         >
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputemail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textEmailAddress"
@@ -53,6 +56,7 @@
         android:hint="Password"
         >
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputpassword"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="numberPassword"
@@ -66,6 +70,7 @@
         android:hint="Name"
         >
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvname"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textEmailAddress"
@@ -75,6 +80,7 @@
 
 
     <Button
+        android:id="@+id/buttonsignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Signup"
@@ -89,6 +95,7 @@
         />
 
     <Button
+        android:id="@+id/buttonlogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
