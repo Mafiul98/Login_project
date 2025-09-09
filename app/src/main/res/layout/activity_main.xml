@@ -12,11 +12,13 @@
     >
 
     <ImageView
+        android:id="@+id/imageview"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:src="@drawable/boy"
         />
     <TextView
+        android:id="@+id/tvdisplay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="some"
