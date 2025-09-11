@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         imageview=findViewById(R.id.imageview);
         tvdisplay=findViewById(R.id.tvdisplay);
         logout=findViewById(R.id.logout);
